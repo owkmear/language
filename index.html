@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="library.js" type="text/javascript"></script>
+    <title>Транслятор</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading">Input</div>
+        <div class="panel-body">
+            <textarea id="codeField" rows="10" cols="100">
+Start
+First 45.13, Third 175, Fourth 47 16 3, Second 1.7 3.41 4.1, Second 12.31 6.17, Third 6
+    height = 34.3 + 12.1 * 2.0
+    width = 34.41 ^ 7.1
+    sum = height + abs - 14.12
+    strength = height + 15.56
+    agile = sin 45.00
+    speed = abs cos 15.3
+Stop
+            </textarea>
+        </div>
+    </div>
+    <button type="button" onclick="translateCode()" class="btn btn-primary">Translate</button>   
+    <div class="panel panel-success">
+    <div class="panel-heading">Output</div>
+        <div id="outputField" style=""></div>
+        <div id="errorsField" class="text-danger"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

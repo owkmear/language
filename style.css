@@ -1,0 +1,17 @@
+.btn {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#codeField {
+    font-size: 20px;
+    font-family: monospace;
+}
+#outputField, #errorsField  {
+    font-size: 20px;
+    font-family: monospace;
+    padding: 20px;
+}
+.panel-heading {
+    font-size: 20px;
+}
